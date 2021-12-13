@@ -2,7 +2,7 @@ from tkinter import *
 import tkinter
 
 ########################
-#GUI
+# GUI
 ########################
 
 root = tkinter.Tk()
@@ -77,7 +77,7 @@ def remove_password(password: str) -> None:
 
 
 ########################
-# FBUTTONS
+# BUTTONS
 ########################
 
 button = tkinter.Button(root, text='PASSWORD', command= lambda: find_password(entry.get()), bg = '#323232', highlightthickness = 0, bd = 0)
